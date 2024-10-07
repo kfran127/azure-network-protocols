@@ -179,13 +179,7 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 
-
-
 <h2>Conclusion</h2>
 
 <p>By completing this lab, I gained experience in deploying VMs, analyzing network traffic, and configuring Network Security Groups in Azure. I also deepened my understanding of network protocols such as ICMP, SSH, DHCP, DNS, and RDP while using WireShark to inspect and analyze these protocols.</p>
 
-<p align="center">
-  <!-- Add Conclusion Image -->
-  <img src="https://github.com/user-attachments/assets/your-image-link.png" alt="Conclusion Image" width="80%">
-</p>
