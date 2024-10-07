@@ -108,10 +108,13 @@
 I explored different protocols and observed their behavior using WireShark:
 
 - **SSH Traffic:** 
-  - I captured SSH traffic in WireShark by initiating an SSH session from the Windows 10 VM to the Ubuntu VM using its private IP address.
-  - I monitored the encrypted traffic as I interacted with the Ubuntu VM via SSH.
+  <p>I captured SSH traffic in WireShark by initiating an SSH session from the Windows 10 VM to the Ubuntu VM using its private IP address (10.0.0.5).</p>
+<ul>
+  <li>The session was encrypted using the SSHv2 protocol, which includes key exchanges and encrypted packets as part of the secure communication between the two machines.</li>
+  <li>In WireShark, I monitored the encrypted traffic as I executed commands within the Ubuntu VM via SSH. The capture confirmed that SSH provides a secure and encrypted channel for communication.</li>
+</ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1305de79-365c-4724-beff-9df431dacfe7" alt="Observing Protocol Traffic" width="80%">
+ <img src="https://github.com/user-attachments/assets/1305de79-365c-4724-beff-9df431dacfe7" alt="Observing Protocol Traffic" width="80%">
 </p>
 
 <p align="center">
@@ -126,10 +129,11 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 
-
-- **DHCP Traffic:** 
+- **DHCP Traffic:**
   - I filtered for DHCP traffic in WireShark.
-  - On the Windows 10 VM, I ran `ipconfig /renew` and observed the DHCP handshake taking place in the packet capture.
+  - On the Windows 10 VM, I created a batch file named `dhcp.bat` containing the commands `ipconfig /release` and `ipconfig /renew`.
+  - I executed the batch file in PowerShell, then observed the DHCP handshake taking place in WireShark.
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1606e89c-ec1e-46f4-b888-826a5a62da04" alt="Observing Protocol Traffic" width="80%">
