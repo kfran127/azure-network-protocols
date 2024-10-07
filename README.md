@@ -39,12 +39,37 @@
 3. I started a packet capture in WireShark and filtered specifically for ICMP traffic.
 4. From the Windows 10 VM, I pinged my Ubuntu VM using its private IP address.
 5. In WireShark, I observed the ICMP traffic flowing between the VMs.
-6. I also pinged a public website (e.g., google.com) and inspected the ICMP traffic for the public request.
+
 
 <p align="center">
-  <!-- Add Image Example -->
-  <img src="https://github.com/user-attachments/assets/your-image-link.png" alt="Observing ICMP Traffic" width="80%">
+  
+  <img src="https://github.com/user-attachments/assets/5587f9e5-7b54-4181-9a07-1f7f50b5deac" alt="Observing ICMP Traffic" width="80%">
 </p>
+
+
+<p align="center">
+  
+  <img src="https://github.com/user-attachments/assets/72fe7d44-65c8-45b5-848b-8ae13d813acf" alt="Observing ICMP Traffic" width="80%">
+</p>
+
+<p align="center">
+  
+  <img src="https://github.com/user-attachments/assets/effd7cb5-6e33-436c-8665-39129fe5ff03" alt="Observing ICMP Traffic" width="80%">
+</p>
+
+
+<p align="center">
+
+  <img src="https://github.com/user-attachments/assets/02bc9a1f-6287-41e0-a6c5-3185e61a5681" alt="Observing ICMP Traffic" width="80%">
+</p>
+
+
+<p align="center">
+  
+  <img src="https://github.com/user-attachments/assets/df329d07-c0e2-49e5-b8b0-5451428c68a6" alt="Observing ICMP Traffic" width="80%">
+</p>
+
+
 
 <h2>Part 3: Configuring Network Security Groups (NSGs)</h2>
 
