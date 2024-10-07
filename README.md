@@ -115,8 +115,15 @@ I explored different protocols and observed their behavior using WireShark:
 </p>
 
 <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/bcd375b3-87a2-4fe9-8810-372686a27aa8" alt="Observing Protocol Traffic" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6ab294c-e004-4eb1-bf5b-83bf7ed9c5eb" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+
+
 
 
 
@@ -125,13 +132,16 @@ I explored different protocols and observed their behavior using WireShark:
   - On the Windows 10 VM, I ran `ipconfig /renew` and observed the DHCP handshake taking place in the packet capture.
 
 <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/1606e89c-ec1e-46f4-b888-826a5a62da04" alt="Observing Protocol Traffic" width="80%">
 </p>
+
 
 <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/6b7eacd0-a955-49ba-b6d8-5c6a157305bd" alt="Observing Protocol Traffic" width="80%">
 </p>
 
+
+ 
 
 - **DNS Traffic:** 
   - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com and disney.com, observing the queries and responses.
