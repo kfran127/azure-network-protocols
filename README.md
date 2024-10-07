@@ -171,12 +171,9 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/30ae98e9-b1ed-41c7-9281-06a836bcd0dc" alt="Observing Protocol Traffic" width="80%">
 </p>
 
-<p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
-</p>
 
 
 
