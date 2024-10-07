@@ -122,9 +122,43 @@ I explored different protocols and observed their behavior using WireShark:
   - Lastly, I filtered for RDP traffic and observed the continuous flow of packets due to my active Remote Desktop session on the Windows 10 VM.
 
 <p align="center">
-  <!-- Add Image Example -->
-  <img src="https://github.com/user-attachments/assets/your-image-link.png" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/1305de79-365c-4724-beff-9df431dacfe7" alt="Observing Protocol Traffic" width="80%">
 </p>
+
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+
+
+
+
+
 
 <h2>Conclusion</h2>
 
