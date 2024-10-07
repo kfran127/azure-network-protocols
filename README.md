@@ -136,16 +136,21 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1606e89c-ec1e-46f4-b888-826a5a62da04" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/6c694ae7-31c6-4289-a414-75853c918214" alt="Observing Protocol Traffic" width="80%">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6b7eacd0-a955-49ba-b6d8-5c6a157305bd" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/887454d0-fa4e-432c-afa4-ad33fd5f08df" alt="Observing Protocol Traffic" width="80%">
 </p>
 
 
- 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a33433be-f0ac-4e6a-951b-46bfb5a00c71" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+
+
 
 - **DNS Traffic:** 
   - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com and disney.com, observing the queries and responses.
