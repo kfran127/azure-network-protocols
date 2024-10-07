@@ -80,9 +80,27 @@
 5. Once done, I stopped the ping command.
 
 <p align="center">
-  <!-- Add Image Example -->
-  <img src="https://github.com/user-attachments/assets/your-image-link.png" alt="Configuring NSGs" width="80%">
+  <img src="https://github.com/user-attachments/assets/0fa62b13-5f87-4e54-99bd-f7e97c417568" alt="Configuring NSGs" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d543f20f-e4b8-4304-854e-6af9983c4bb4" alt="Configuring NSGs" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Configuring NSGs" width="80%">
+</p>
+
+<p align="center">
+  <img src="" alt="Configuring NSGs" width="80%">
+</p>
+
+
+
+
+
+
+
 
 <h2>Part 4: Observing Protocol Traffic</h2>
 
