@@ -153,15 +153,18 @@ I explored different protocols and observed their behavior using WireShark:
 
 
 - **DNS Traffic:** 
-  - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com and disney.com, observing the queries and responses.
+  - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com observing the queries and responses.
  
   <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/96bea575-b572-496f-8ab8-bfdc170191d0" alt="Observing Protocol Traffic" width="80%">
 </p>
 
+
 <p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
+  <img src="https://github.com/user-attachments/assets/e2f3a42c-be96-47cc-9771-332d3885b99e" alt="Observing Protocol Traffic" width="80%">
 </p>
+
+
 
 - **RDP Traffic:** 
   - Lastly, I filtered for RDP traffic and observed the continuous flow of packets due to my active Remote Desktop session on the Windows 10 VM.
