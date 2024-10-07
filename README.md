@@ -19,9 +19,18 @@
 5. I made sure both VMs were in the same VNet and Subnet.
 
 <p align="center">
-  <!-- Add Image Example -->
-  <img src="https://github.com/user-attachments/assets/your-image-link.png" alt="Creating Virtual Machines" width="80%">
+  <img src="https://github.com/user-attachments/assets/7c82d5a2-d632-4ea9-9527-5dc3e37983fd" alt="Creating Virtual Machines" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/30064df8-a984-48a4-8856-111f0ace3a4e" alt="Creating Virtual Machines" width="80%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c7c78ef7-4ba3-4063-b343-8b5076cd1b7d" alt="Creating Virtual Machines" width="80%">
+</p>
+
+
 
 <h2>Part 2: Observing ICMP Traffic</h2>
 
