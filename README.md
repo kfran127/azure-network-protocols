@@ -77,7 +77,7 @@
 2. I then went to Azure and disabled inbound ICMP traffic in the NSG associated with the Ubuntu VM.
 3. Back in WireShark, I observed the blocked ICMP traffic and noticed the ping activity had stopped.
 4. Afterward, I re-enabled ICMP traffic in the NSG and observed the traffic being restored and the ping activity resuming.
-5. Once done, I stopped the ping command.
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0fa62b13-5f87-4e54-99bd-f7e97c417568" alt="Configuring NSGs" width="80%">
@@ -88,12 +88,13 @@
 </p>
 
 <p align="center">
-  <img src="" alt="Configuring NSGs" width="80%">
+  <img src="https://github.com/user-attachments/assets/38c61870-4574-4d79-81e9-77eeb3743455" alt="Configuring NSGs" width="80%">
 </p>
 
 <p align="center">
-  <img src="" alt="Configuring NSGs" width="80%">
+  <img src="https://github.com/user-attachments/assets/6dea725f-feed-4147-8ba1-2a5119dd7f9b" alt="Configuring NSGs" width="80%">
 </p>
+
 
 
 
