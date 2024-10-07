@@ -110,21 +110,19 @@ I explored different protocols and observed their behavior using WireShark:
 - **SSH Traffic:** 
   - I captured SSH traffic in WireShark by initiating an SSH session from the Windows 10 VM to the Ubuntu VM using its private IP address.
   - I monitored the encrypted traffic as I interacted with the Ubuntu VM via SSH.
-  
-- **DHCP Traffic:** 
-  - I filtered for DHCP traffic in WireShark.
-  - On the Windows 10 VM, I ran `ipconfig /renew` and observed the DHCP handshake taking place in the packet capture.
-
-- **DNS Traffic:** 
-  - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com and disney.com, observing the queries and responses.
-
-- **RDP Traffic:** 
-  - Lastly, I filtered for RDP traffic and observed the continuous flow of packets due to my active Remote Desktop session on the Windows 10 VM.
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1305de79-365c-4724-beff-9df431dacfe7" alt="Observing Protocol Traffic" width="80%">
 </p>
 
+<p align="center">
+  <img src="" alt="Observing Protocol Traffic" width="80%">
+</p>
+
+
+
+- **DHCP Traffic:** 
+  - I filtered for DHCP traffic in WireShark.
+  - On the Windows 10 VM, I ran `ipconfig /renew` and observed the DHCP handshake taking place in the packet capture.
 
 <p align="center">
   <img src="" alt="Observing Protocol Traffic" width="80%">
@@ -134,7 +132,11 @@ I explored different protocols and observed their behavior using WireShark:
   <img src="" alt="Observing Protocol Traffic" width="80%">
 </p>
 
-<p align="center">
+
+- **DNS Traffic:** 
+  - Filtering for DNS traffic in WireShark, I used `nslookup` to query DNS records for google.com and disney.com, observing the queries and responses.
+ 
+  <p align="center">
   <img src="" alt="Observing Protocol Traffic" width="80%">
 </p>
 
@@ -142,9 +144,9 @@ I explored different protocols and observed their behavior using WireShark:
   <img src="" alt="Observing Protocol Traffic" width="80%">
 </p>
 
-<p align="center">
-  <img src="" alt="Observing Protocol Traffic" width="80%">
-</p>
+- **RDP Traffic:** 
+  - Lastly, I filtered for RDP traffic and observed the continuous flow of packets due to my active Remote Desktop session on the Windows 10 VM.
+
 
 <p align="center">
   <img src="" alt="Observing Protocol Traffic" width="80%">
